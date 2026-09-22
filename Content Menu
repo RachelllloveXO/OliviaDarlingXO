@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP MENU - OnlyFans</title>
+</head>
+<body style="background: linear-gradient(135deg, #1a0a1a 0%, #2d1a2d 100%); color: #fff; padding: 2rem; font-family: Arial, sans-serif; margin: 0;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    
+    <!-- Header -->
+    <div style="text-align: center; margin-bottom: 2.5rem;">
+      <div style="font-size: 2.8rem; letter-spacing: 4px; font-weight: bold; color: #e85d9f; margin-bottom: 0.3rem;">VIP MENU</div>
+      <div style="font-size: 1.15rem; font-style: italic; color: #d4a5d4;">Choose your favorite way to play 💕</div>
+    </div>
+
+    <!-- Main Grid -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2.5rem;">
+      
+      <!-- Favorites Section -->
+      <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; background: rgba(232, 93, 159, 0.08);">
+        <div style="background: #e85d9f; color: #1a0a1a; padding: 0.75rem; margin: -1.5rem -1.5rem 1.5rem; border-radius: 10px 10px 0 0; font-weight: bold; text-align: center; font-size: 1rem; letter-spacing: 1px;">❤️ FAVORITES</div>
+        
+        <div style="margin-bottom: 1.5rem;">
+          <div style="font-weight: bold; color: #e85d9f; margin-bottom: 0.75rem; font-size: 1rem;">📸 PHOTO SETS</div>
+          <div style="font-size: 0.9rem; line-height: 2; color: #d4a5d4;">
+            <div>1 Photo ........................ $5</div>
+            <div>5 Photos ..................... $20</div>
+            <div>10 Photos .................. $35</div>
+          </div>
+        </div>
+
+        <div style="border-top: 1px solid #e85d9f; padding-top: 1.5rem;">
+          <div style="font-weight: bold; color: #e85d9f; margin-bottom: 0.75rem; font-size: 1rem;">🎥 VIDEO VAULT</div>
+          <div style="font-size: 0.9rem; line-height: 2; color: #d4a5d4;">
+            <div>Single Video .............. $20</div>
+            <div>3 Videos ................... $50</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Custom Content Section -->
+      <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; background: rgba(232, 93, 159, 0.08);">
+        <div style="background: #e85d9f; color: #1a0a1a; padding: 0.75rem; margin: -1.5rem -1.5rem 1.5rem; border-radius: 10px 10px 0 0; font-weight: bold; text-align: center; font-size: 1rem; letter-spacing: 1px;">✨ CUSTOM CONTENT</div>
+        <div style="font-size: 0.9rem; color: #d4a5d4; margin-bottom: 1.5rem;">Made just for you. Personalized to your preferences 💕</div>
+
+        <div style="margin-bottom: 1rem;">
+          <div style="font-weight: bold; color: #e85d9f; margin-bottom: 0.5rem;">📸 CUSTOM PHOTOS</div>
+          <div style="font-size: 0.9rem; line-height: 1.8; color: #d4a5d4;">
+            <div>5 Photos .......... $35</div>
+            <div>10 Photos ........ $55</div>
+            <div>20 Photos ...... $90</div>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-weight: bold; color: #e85d9f; margin-bottom: 0.5rem;">🎥 CUSTOM VIDEOS</div>
+          <div style="font-size: 1.2rem; font-weight: bold; color: #e85d9f; margin-bottom: 0.25rem;">$15 💕</div>
+          <div style="font-size: 0.8rem; color: #999; margin-bottom: 0.5rem;">per minute</div>
+          <div style="font-size: 0.85rem; color: #d4a5d4;">Personalized to your request</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bundle Section -->
+    <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; margin-bottom: 2.5rem; background: rgba(232, 93, 159, 0.12); box-shadow: 0 0 20px rgba(232, 93, 159, 0.3);">
+      <div style="display: grid; grid-template-columns: auto 1fr auto; gap: 1.5rem; align-items: flex-start;">
+        <div style="font-size: 2.5rem;">👑</div>
+        <div>
+          <div style="font-weight: bold; color: #e85d9f; margin-bottom: 0.75rem; font-size: 1.1rem;">💖 MOST POPULAR - VIP BUNDLE</div>
+          <div style="font-size: 0.9rem; line-height: 1.8; color: #d4a5d4;">
+            <div>✨ 20 Custom Photos</div>
+            <div>🎥 5-Minute Custom Video</div>
+            <div>💬 One Personalized Voice Note</div>
+            <div style="margin-top: 0.5rem; border-top: 1px solid #e85d9f; padding-top: 0.5rem;">
+              <div>⭐ Priority Delivery</div>
+              <div>💝 10% Off Your Next Custom Order</div>
+            </div>
+          </div>
+        </div>
+        <div style="background: #e85d9f; color: #1a0a1a; padding: 0.75rem; border-radius: 50%; width: 70px; height: 70px; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; font-weight: bold; min-width: 70px;">
+          <div style="font-size: 1.4rem;">$150</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add-ons Section -->
+    <div style="border-top: 2px solid #e85d9f; border-bottom: 2px solid #e85d9f; padding: 1.5rem 0; margin-bottom: 2.5rem;">
+      <div style="text-align: center; font-weight: bold; color: #e85d9f; margin-bottom: 1.5rem; font-size: 1.2rem; letter-spacing: 2px;">💖 ADD-ONS 💖</div>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; font-size: 0.9rem;">
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1rem; text-align: center;">
+          <div style="color: #d4a5d4; margin-bottom: 0.5rem;">💕 Name Mention</div>
+          <div style="color: #e85d9f; font-weight: bold; font-size: 1.1rem;">+$5</div>
+        </div>
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1rem; text-align: center;">
+          <div style="color: #d4a5d4; margin-bottom: 0.5rem;">👗 Outfit Request</div>
+          <div style="color: #e85d9f; font-weight: bold; font-size: 1.1rem;">+$10</div>
+        </div>
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1rem; text-align: center;">
+          <div style="color: #d4a5d4; margin-bottom: 0.5rem;">⚡ Rush Delivery</div>
+          <div style="color: #e85d9f; font-weight: bold; font-size: 1.1rem;">+$20</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GFE Section -->
+    <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; margin-bottom: 2.5rem; background: rgba(232, 93, 159, 0.08);">
+      <div style="text-align: center; font-weight: bold; color: #e85d9f; margin-bottom: 1.5rem; font-size: 1.2rem;">💖 GIRLFRIEND EXPERIENCE 💖</div>
+      
+      <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 1.5rem;">
+        <div>
+          <div style="border: 1px solid #e85d9f; border-radius: 8px; padding: 1rem; text-align: center; margin-bottom: 1rem;">
+            <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">💕</div>
+            <div style="font-size: 0.9rem; margin-bottom: 0.75rem; font-weight: bold;">24-HOUR GFE</div>
+            <div style="color: #e85d9f; font-weight: bold; font-size: 1.3rem;">$80</div>
+          </div>
+          <div style="border: 1px solid #e85d9f; border-radius: 8px; padding: 1rem; text-align: center;">
+            <div style="font-size: 1.4rem; margin-bottom: 0.5rem;">💕</div>
+            <div style="font-size: 0.9rem; margin-bottom: 0.75rem; font-weight: bold;">7-DAY GFE</div>
+            <div style="color: #e85d9f; font-weight: bold; font-size: 1.3rem;">$450</div>
+          </div>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 1rem;">
+            <div style="font-weight: bold; color: #e85d9f; margin-bottom: 0.75rem;">YOU'LL RECEIVE:</div>
+            <div style="font-size: 0.85rem; line-height: 1.8; color: #d4a5d4;">
+              <div>☀️ Good morning text</div>
+              <div>💕 Flirty conversation throughout the day</div>
+              <div>📸 Exclusive pics throughout the day</div>
+              <div>🌙 Good night message</div>
+              <div>💬 Priority messaging over standard chats</div>
+              <div style="border-top: 1px solid #e85d9f; padding-top: 0.5rem; margin-top: 0.5rem;">💝 10% off all custom content while active</div>
+            </div>
+          </div>
+          <div style="background: rgba(232, 93, 159, 0.2); border-radius: 8px; padding: 0.75rem; font-size: 0.8rem; color: #d4a5d4;">
+            <div style="color: #e85d9f; font-weight: bold; margin-bottom: 0.5rem;">PLEASE NOTE:</div>
+            <div>✓ Replies sent throughout the day as schedule allows</div>
+            <div>✓ Custom content not included separately</div>
+            <div>✓ Video calls not included</div>
+            <div>✓ Keep it fun, flirty & enjoyable 💕</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extras Section -->
+    <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; background: rgba(232, 93, 159, 0.08);">
+      <div style="background: #e85d9f; color: #1a0a1a; padding: 0.75rem; margin: -1.5rem -1.5rem 1.5rem; border-radius: 10px 10px 0 0; font-weight: bold; text-align: center; font-size: 1rem; letter-spacing: 1px;">💖 EXTRAS 💖</div>
+      
+      <div style="font-size: 0.9rem; line-height: 2; color: #d4a5d4;">
+        <div>🎬 Themed Photo Shoots .............. Starting at $30</div>
+        <div>🎥 Exclusive Video Collections ...... Starting at $40</div>
+      </div>
+      <div style="margin-top: 1rem; font-style: italic; color: #d4a5d4; font-size: 0.9rem;">Have a special request? Just ask 💕</div>
+    </div>
+
+    <!-- House Rules Section -->
+    <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; background: rgba(232, 93, 159, 0.08);">
+      <div style="background: #e85d9f; color: #1a0a1a; padding: 0.75rem; margin: -1.5rem -1.5rem 1rem; border-radius: 10px 10px 0 0; font-weight: bold; text-align: center; font-size: 1rem; letter-spacing: 1px;">🔐 HOUSE RULES</div>
+      
+      <div style="font-size: 0.9rem; line-height: 1.8; color: #d4a5d4;">
+        <div>✓ Payment is required before any content is created.</div>
+        <div>✓ Custom orders are completed in the order received.</div>
+        <div>✓ Typical turnaround is 3–14 days, depending on my queue.</div>
+        <div>✓ No refunds on completed custom content.</div>
+        <div>✓ Have a unique idea? Feel free to ask—I love getting creative! 💕</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align: center; margin-top: 2rem; font-size: 0.95rem; color: #d4a5d4;">
+      <div>Thank you for supporting me! You're amazing! 💕</div>
+    </div>
+  </div>
+</body>
+</html>
