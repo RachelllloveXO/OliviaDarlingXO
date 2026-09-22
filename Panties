@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP COLLECTION - Panties</title>
+</head>
+<body style="background: linear-gradient(135deg, #1a0a1a 0%, #2d1a2d 100%); color: #fff; padding: 2rem; font-family: Arial, sans-serif; margin: 0;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    
+    <!-- Header -->
+    <div style="text-align: center; margin-bottom: 2.5rem;">
+      <div style="font-size: 2.8rem; letter-spacing: 4px; font-weight: bold; color: #e85d9f; margin-bottom: 0.3rem;">VIP COLLECTION</div>
+      <div style="font-size: 1.15rem; font-style: italic; color: #d4a5d4;">Luxe, intimate, made just for you 😇🖤🔥</div>
+    </div>
+
+    <!-- Main Offerings Grid -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 2.5rem;">
+      
+      <!-- Panties Card -->
+      <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; background: rgba(232, 93, 159, 0.08);">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💕</div>
+          <div style="font-weight: bold; font-size: 1.2rem; color: #e85d9f; margin-bottom: 0.5rem;">WORN PANTIES</div>
+        </div>
+
+        <div style="border-top: 1px solid #e85d9f; padding-top: 1rem;">
+          <div style="margin-bottom: 1rem;">
+            <div style="font-size: 0.9rem; color: #d4a5d4; margin-bottom: 0.3rem;">Standard</div>
+            <div style="font-size: 1.8rem; font-weight: bold; color: #e85d9f;">$90</div>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: #d4a5d4; margin-bottom: 0.3rem;">Premium / Custom</div>
+            <div style="font-size: 1.8rem; font-weight: bold; color: #e85d9f;">$125</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bra Card -->
+      <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; background: rgba(232, 93, 159, 0.08);">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">👑</div>
+          <div style="font-weight: bold; font-size: 1.2rem; color: #e85d9f; margin-bottom: 0.5rem;">WORN BRA</div>
+        </div>
+
+        <div style="border-top: 1px solid #e85d9f; padding-top: 1rem;">
+          <div style="margin-bottom: 1rem;">
+            <div style="font-size: 0.9rem; color: #d4a5d4; margin-bottom: 0.3rem;">Standard</div>
+            <div style="font-size: 1.8rem; font-weight: bold; color: #e85d9f;">$100</div>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: #d4a5d4; margin-bottom: 0.3rem;">Premium / Custom</div>
+            <div style="font-size: 1.8rem; font-weight: bold; color: #e85d9f;">$150</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Complete Set Card -->
+      <div style="border: 2px solid #e85d9f; border-radius: 12px; padding: 1.5rem; background: rgba(232, 93, 159, 0.12); box-shadow: 0 0 20px rgba(232, 93, 159, 0.3);">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💖</div>
+          <div style="font-weight: bold; font-size: 1.2rem; color: #e85d9f; margin-bottom: 0.25rem;">COMPLETE SET</div>
+          <div style="font-size: 0.75rem; color: #e85d9f; letter-spacing: 1px;">MOST POPULAR</div>
+        </div>
+
+        <div style="border-top: 1px solid #e85d9f; padding-top: 1rem;">
+          <div style="margin-bottom: 1rem;">
+            <div style="font-size: 0.9rem; color: #d4a5d4; margin-bottom: 0.3rem;">Standard</div>
+            <div style="font-size: 1.8rem; font-weight: bold; color: #e85d9f;">$150</div>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: #d4a5d4; margin-bottom: 0.3rem;">Premium / Custom</div>
+            <div style="font-size: 1.8rem; font-weight: bold; color: #e85d9f;">$200</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add-Ons Section -->
+    <div style="border-top: 2px solid #e85d9f; border-bottom: 2px solid #e85d9f; padding: 2rem 0; margin-bottom: 2.5rem;">
+      <div style="text-align: center; font-weight: bold; color: #e85d9f; margin-bottom: 2rem; font-size: 1.3rem; letter-spacing: 2px;">✨ ADD-ONS ✨</div>
+      
+      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
+        
+        <!-- 3 Photos -->
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <div style="font-weight: bold;">📸 3 Photos Showing Off</div>
+            <div style="font-size: 1.3rem; font-weight: bold; color: #e85d9f;">$10</div>
+          </div>
+          <div style="font-size: 0.85rem; color: #d4a5d4;">In panties / bra of your choice</div>
+        </div>
+
+        <!-- 3 Min Video -->
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <div style="font-weight: bold;">🎥 3-Min Video</div>
+            <div style="font-size: 1.3rem; font-weight: bold; color: #e85d9f;">$25</div>
+          </div>
+          <div style="font-size: 0.85rem; color: #d4a5d4;">Showing off panties / bra</div>
+        </div>
+
+        <!-- Special Days -->
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <div style="font-weight: bold;">✨ Special Days</div>
+            <div style="font-size: 1.3rem; font-weight: bold; color: #e85d9f;">$25</div>
+          </div>
+          <div style="font-size: 0.85rem; color: #d4a5d4;">Worn on specific occasions</div>
+        </div>
+
+        <!-- Longer Wear -->
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <div style="font-weight: bold;">⏱️ Longer Wear</div>
+            <div style="font-size: 1.1rem; font-weight: bold; color: #e85d9f;">$25–$50</div>
+          </div>
+          <div style="font-size: 0.85rem; color: #d4a5d4;">Depending on duration</div>
+        </div>
+
+        <!-- Custom Request -->
+        <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 8px; padding: 1.25rem; grid-column: 1 / -1;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <div style="font-weight: bold;">💭 Custom Request</div>
+            <div style="font-size: 1.1rem; font-weight: bold; color: #e85d9f;">Let's Talk</div>
+          </div>
+          <div style="font-size: 0.85rem; color: #d4a5d4;">Have something specific in mind? DM me—flexible pricing based on your request 😇🖤🔥</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Details Section -->
+    <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;">
+      <div style="font-weight: bold; color: #e85d9f; margin-bottom: 1rem; font-size: 1.1rem;">WHAT'S INCLUDED</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.9rem; line-height: 1.8;">
+        <div>
+          <div>✓ Discreet, premium packaging</div>
+          <div>✓ 24–48 hour available priority shipping</div>
+          <div>✓ Color request subject to inventory</div>
+        </div>
+        <div>
+          <div>✓ Scent guarantee (worn to order)</div>
+          <div>✓ Photo proof before shipping</div>
+          <div>✓ Tracking included</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- House Rules Section -->
+    <div style="background: rgba(232, 93, 159, 0.08); border: 1px solid #e85d9f; border-radius: 12px; padding: 1.5rem;">
+      <div style="font-weight: bold; color: #e85d9f; margin-bottom: 1rem; font-size: 1.1rem;">🔐 HOUSE RULES</div>
+      
+      <div style="font-size: 0.9rem; line-height: 1.8;">
+        <div>✓ Payment required upfront via encrypted, secure transfer.</div>
+        <div>✓ Orders completed in sequence—typical turnaround 3–7 days.</div>
+        <div>✓ All items custom made to your order; no refunds on completed orders.</div>
+        <div>✓ Absolute discretion & privacy guaranteed.</div>
+        <div>✓ Custom requests negotiated in DMs—let's make it happen 💕</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align: center; margin-top: 2.5rem; font-size: 0.95rem; color: #d4a5d4;">
+      <div>Thank you for supporting me 💕</div>
+      <div style="margin-top: 0.5rem; color: #e85d9f; font-size: 0.85rem;">Darling, you're amazing!</div>
+    </div>
+  </div>
+</body>
+</html>
