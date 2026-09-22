@@ -1,4 +1,113 @@
 <!DOCTYPE html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIP Content - Premium Video Library</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .header { margin-bottom: 2.5rem; }
+    .header h1 { font-size: 28px; font-weight: 500; margin-bottom: 0.25rem; color: #ffffff; }
+    .header p { font-size: 13px; color: #999; text-transform: uppercase; letter-spacing: 0.5px; }
+    .search-bar { display: flex; gap: 12px; margin-bottom: 2rem; flex-wrap: wrap; }
+    .search-bar input {
+      flex: 1; min-width: 250px; max-width: 500px; padding: 10px 16px;
+      border: 0.5px solid rgba(255,255,255,0.15); border-radius: 8px;
+      background: rgba(255,255,255,0.05); color: #ffffff; font-size: 14px;
+    }
+    .search-bar input::placeholder { color: rgba(255,255,255,0.4); }
+    .btn-search {
+      padding: 10px 24px; background: #ff5722; border: none; border-radius: 8px;
+      color: white; font-size: 14px; font-weight: 500; cursor: pointer; transition: background 0.2s;
+    }
+    .btn-search:hover { background: #ff7043; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px; max-width: 1400px;
+    }
+    .card {
+      background: rgba(30, 30, 50, 0.8); border: 0.5px solid rgba(255,255,255,0.1);
+      border-radius: 12px; overflow: hidden; transition: transform 0.2s, border-color 0.2s;
+      cursor: pointer; display: flex; flex-direction: column;
+    }
+    .card:hover { transform: translateY(-4px); border-color: rgba(255,255,255,0.2); }
+    .thumbnail-container {
+      width: 100%; aspect-ratio: 16 / 9; background: #000;
+      display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;
+    }
+    .thumbnail-container img { width: 100%; height: 100%; object-fit: cover; }
+    .duration {
+      position: absolute; bottom: 8px; right: 8px; background: rgba(0, 0, 0, 0.7);
+      color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 500;
+    }
+    .card-content { padding: 16px; display: flex; flex-direction: column; flex: 1; }
+    .card-title { font-size: 15px; font-weight: 500; margin-bottom: 8px; color: #ffffff; }
+    .card-description { font-size: 13px; color: #aaa; line-height: 1.5; margin-bottom: 12px; flex: 1; }
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
+    }
+    .price { background: #ff5722; color: white; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-weight: 600; }
+    .note { font-size: 12px; color: #777; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>VIP Content</h1>
+    <p>Premium Video Library</p>
+  </div>
+  
+  <div class="search-bar">
+    <input type="text" placeholder="Search VIP content...">
+    <button class="btn-search">Search</button>
+  </div>
+  
+  <div class="grid">
+    <div class="card">
+      <div class="thumbnail-container">
+        <img src="PASTE_YOUR_GIF_URL_HERE" alt="A little bit of everything">
+        <span class="duration">17:41</span>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">A little bit of everything</h3>
+        <p class="card-description">A little afternoon time to ourselves. I ride him, blow him and let him cum inside me</p>
+        <div class="card-footer">
+          <div class="price">$65</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <p class="note">Shortened clips available by request</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+</head>
+<body>
+  <h1>Welcome to my website!</h1>
+  <p>This site is published with GitHub Pages.</p>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -86,7 +195,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
 <!-- CARD 1 -->
 <div class="card">
 <div class="thumbnail-container">
-<img src="https://media.discordapp.net/attachments/1549488587207090208/1549496957532377108/0915-ezgif.com-video-to-gif-converter.gif?ex=6aac3a7e&is=6aaae8fe&hm=08acdb1ac2280a070b8a9d28858a905f0bbf419182eacae5f61fbe365d657c92&=" alt="A little bit of everything">
+<img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789748635/A_little_bit_of_everything.gif" alt="A little bit of everything">
 <span class="duration">17:41</span>
 </div>
 <div class="card-content">
@@ -102,8 +211,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
 <div class="card">
 <div class="favorite-badge">★ My Favorite</div>
 <div class="thumbnail-container">
-        <img src="https://media.discordapp.net/attachments/1549488587207090208/1549867831435198534/0916-ezgif.com-gif-maker.gif?ex=6aac4266&is=6aaaf0e6&hm=fbc795a7e1aee1428a640ec30282b7abee9fdedd00596febf14818a39cd065e5&=" alt="My Happy Place">
-        <img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789747796/0916_1.gif" alt="My Happy Place">
+<img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789747796/0916_1.gif" alt="My Happy Place">
 <span class="duration">3:55</span>
 </div>
 <div class="card-content">
@@ -118,7 +226,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
 <!-- CARD 3 -->
 <div class="card">
 <div class="thumbnail-container">
-<img src="https://media.discordapp.net/attachments/1549488587207090208/1549882729464856576/0916_1.gif?ex=6aac5046&is=6aaafec6&hm=e03eef36d537308fc36f1001b39ac97bf43f8d069555f4c071273a8155a62e05&=" alt="Some Me Time">
+<img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/BBC_Dildo.gif" alt="Some Me Time">
 <span class="duration">5:43</span>
 </div>
 <div class="card-content">
@@ -133,7 +241,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
 <!-- CARD 4 -->
 <div class="card">
 <div class="thumbnail-container">
-<img src="https://media.discordapp.net/attachments/1549488587207090208/1549884319454072962/to_the_side.gif?ex=6aac51c1&is=6aab0041&hm=fc0ecf9ae09dc665e62f2ac755f13c3fdfe2a705114e1f985134556b7de6afcb&=" alt="Pull Them to the Side and Fill Me Up">
+<img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/to_the_side.gif">
 <span class="duration">2:04</span>
 </div>
 <div class="card-content">
@@ -148,7 +256,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
 <!-- CARD 5 -->
 <div class="card">
 <div class="thumbnail-container">
-<img src="https://media.discordapp.net/attachments/1549488587207090208/1549887014294388836/gsting.gif?ex=6aac5443&is=6aab02c3&hm=ef554329996432509e4847e9f4c685a117185244727edf71f5dec2c0753aceeb&=" alt="G-String Montage">
+<img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/gsting.gif" alt="G-String Montage">
 <span class="duration">2:45</span>
 </div>
 <div class="card-content">
@@ -163,7 +271,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
 <!-- CARD 6 -->
 <div class="card">
 <div class="thumbnail-container">
-<img src="https://media.discordapp.net/attachments/1549488587207090208/1549884983471120526/plugged.gif?ex=6aac525f&is=6aab00df&hm=4a5ea2687527ca456f7a257031c423938b26f18361435264a143dec38380bbf0&=" alt="Plugged and Filled">
+<img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746741/plugged.gif" alt="Plugged and Filled">
 <span class="duration">2:13</span>
 </div>
 <div class="card-content">
@@ -175,246 +283,99 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
 </div>
 </div>
 
-<!-- CARD 7 -->
-<div class="card">
-<div class="thumbnail-container">
-<img src="https://media.discordapp.net/attachments/1549488587207090208/1550527023678619678/0918.gif?ex=6aaea851&is=6aad56d1&hm=1dca06f8d85de9fa5762a9f9f429a5a504e9fa18e84fc7bf605463deb9e6079f&=">
-<span class="duration">12:23</span>
-</div>
-<div class="card-content">
-<h3 class="card-title">He Had No Chance</h3>
-<p class="card-description">We had the livingroom to ourselves so of course I let him hit and cum on my titties</p>
-<div class="card-footer">
-<div class="price">$65</div>
-</div>
-</div>
-</div>
+      <!-- CARD 7 -->
+    <div class="card">
+      <div class="thumbnail-container">
+        <img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789748057/he_had_no_chance.gif” alt="He Had No Chance”>
+        <span class="duration">12:23</span>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">He Had No Chance</h3>
+        <p class="card-description">We had the livingroom to ourselves so of course I let him hit and cum on my titties</p>
+        <div class="card-footer">
+          <div class="price">$65</div>
+        </div>
+      </div>
+    </div>
 </div>
 
 <p class="note">Shortened clips available by request</p>
-<p class="note">DM for montage ideas</p>
+  <p class="note">DM for montage ideas</p>
 </body>
-</html>      color: #999;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
+</html>
 
-    /* MENU LINKS */
-    .menu-links {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-bottom: 2rem;
-    }
-
-    .menu-links a {
-      padding: 12px 24px;
-      background: #ff5722;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 500;
-      transition: background 0.2s, transform 0.2s;
-    }
-
-    .menu-links a:hover {
-      background: #ff7043;
-      transform: translateY(-2px);
-    }
-
-    .search-bar {
-      display: flex;
-      gap: 12px;
-      margin-bottom: 2rem;
-      flex-wrap: wrap;
-    }
-
-    .search-bar input {
-      flex: 1;
-      min-width: 250px;
-      max-width: 500px;
-      padding: 10px 16px;
-      border: 0.5px solid rgba(255,255,255,0.15);
-      border-radius: 8px;
-      background: rgba(255,255,255,0.05);
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIP Content - Premium Video Library</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
       color: #ffffff;
-      font-size: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 2rem;
     }
-
-    .search-bar input::placeholder {
-      color: rgba(255,255,255,0.4);
+    .header { margin-bottom: 2.5rem; }
+    .header h1 { font-size: 28px; font-weight: 500; margin-bottom: 0.25rem; color: #ffffff; }
+    .header p { font-size: 13px; color: #999; text-transform: uppercase; letter-spacing: 0.5px; }
+    .search-bar { display: flex; gap: 12px; margin-bottom: 2rem; flex-wrap: wrap; }
+    .search-bar input {
+      flex: 1; min-width: 250px; max-width: 500px; padding: 10px 16px;
+      border: 0.5px solid rgba(255,255,255,0.15); border-radius: 8px;
+      background: rgba(255,255,255,0.05); color: #ffffff; font-size: 14px;
     }
-
+    .search-bar input::placeholder { color: rgba(255,255,255,0.4); }
     .btn-search {
-      padding: 10px 24px;
-      background: #ff5722;
-      border: none;
-      border-radius: 8px;
-      color: white;
-      font-size: 14px;
-      font-weight: 500;
-      cursor: pointer;
-      transition: background 0.2s;
+      padding: 10px 24px; background: #ff5722; border: none; border-radius: 8px;
+      color: white; font-size: 14px; font-weight: 500; cursor: pointer; transition: background 0.2s;
     }
-
-    .btn-search:hover {
-      background: #ff7043;
-    }
-
+    .btn-search:hover { background: #ff7043; }
     .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 20px;
-      max-width: 1400px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px; max-width: 1400px;
     }
-
     .card {
-      background: rgba(30, 30, 50, 0.8);
-      border: 0.5px solid rgba(255,255,255,0.1);
-      border-radius: 12px;
-      overflow: hidden;
-      transition: transform 0.2s, border-color 0.2s;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
+      background: rgba(30, 30, 50, 0.8); border: 0.5px solid rgba(255,255,255,0.1);
+      border-radius: 12px; overflow: hidden; transition: transform 0.2s, border-color 0.2s;
+      cursor: pointer; display: flex; flex-direction: column;
       position: relative;
     }
-
-    .card:hover {
-      transform: translateY(-4px);
-      border-color: rgba(255,255,255,0.2);
-    }
-
+    .card:hover { transform: translateY(-4px); border-color: rgba(255,255,255,0.2); }
     .thumbnail-container {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      background: #000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      position: relative;
+      width: 100%; aspect-ratio: 16 / 9; background: #000;
+      display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;
     }
-
-    .thumbnail-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
+    .thumbnail-container img { width: 100%; height: 100%; object-fit: cover; }
     .duration {
-      position: absolute;
-      bottom: 8px;
-      right: 8px;
-      background: rgba(0, 0, 0, 0.7);
-      color: white;
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-size: 12px;
-      font-weight: 500;
+      position: absolute; bottom: 8px; right: 8px; background: rgba(0, 0, 0, 0.7);
+      color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 500;
     }
-
     .favorite-badge {
-      position: absolute;
-      top: -2px;
-      left: 12px;
+      position: absolute; top: -2px; left: 12px; 
       background: linear-gradient(135deg, #ff5722 0%, #ff7043 100%);
-      color: white;
-      padding: 8px 14px;
-      border-radius: 50px;
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
+      color: white; padding: 8px 14px; border-radius: 50px; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.5px;
       box-shadow: 0 4px 12px rgba(255, 87, 34, 0.4);
       animation: pulse 2s infinite;
     }
-
     @keyframes pulse {
-      0%, 100% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.05);
-      }
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
     }
-
-    .card-content {
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-    }
-
-    .card-title {
-      font-size: 15px;
-      font-weight: 500;
-      margin-bottom: 8px;
-      color: #ffffff;
-    }
-
-    .card-description {
-      font-size: 13px;
-      color: #aaa;
-      line-height: 1.5;
-      margin-bottom: 12px;
-      flex: 1;
-    }
-
+    .card-content { padding: 16px; display: flex; flex-direction: column; flex: 1; }
+    .card-title { font-size: 15px; font-weight: 500; margin-bottom: 8px; color: #ffffff; }
+    .card-description { font-size: 13px; color: #aaa; line-height: 1.5; margin-bottom: 12px; flex: 1; }
     .card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 12px;
-      border-top: 0.5px solid rgba(255,255,255,0.08);
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
     }
-
-    .price {
-      background: #ff5722;
-      color: white;
-      padding: 6px 12px;
-      border-radius: 6px;
-      font-size: 14px;
-      font-weight: 600;
-    }
-
-    .note {
-      font-size: 12px;
-      color: #777;
-      margin-top: 2rem;
-    }
+    .price { background: #ff5722; color: white; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-weight: 600; }
+    .note { font-size: 12px; color: #777; margin-top: 2rem; }
   </style>
 </head>
-
-<body>
-
-  <!-- HEADER -->
-  <div class="header">
-    <h1>VIP Content</h1>
-    <p>Premium Video Library</p>
-  </div>
-
-  <!-- MENU LINKS -->
-  <div class="menu-links">
-    <a href="./onlyfans-vip-menu.html">Content Menu</a>
-    <a href="./vip-collection-panties.html">Panties Menu</a>
-  </div>
-
-  <!-- SEARCH -->
-  <div class="search-bar">
-    <input type="text" placeholder="Search VIP content...">
-    <button class="btn-search">Search</button>
-  </div>
-
-  <div class="grid">
-
-  <!-- SEARCH -->
-  <div class="search-bar">
-    <input type="text" placeholder="Search VIP content...">
-    <button class="btn-search">Search</button>
-  </div>
-
-  </head>
 <body>
   <div class="header">
     <h1>VIP Content</h1>
@@ -476,7 +437,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
     <!-- CARD 4 -->
     <div class="card">
       <div class="thumbnail-container">
-        <img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/to_the_side.gif" alt="Pull Them to the Side and Fill Me Up">
+        <img src="https://media.discordapp.net/attachments/1549488587207090208/1549884319454072962/to_the_side.gif?ex=6aac51c1&is=6aab0041&hm=fc0ecf9ae09dc665e62f2ac755f13c3fdfe2a705114e1f985134556b7de6afcb&=" alt="Pull Them to the Side and Fill Me Up">
         <span class="duration">2:04</span>
       </div>
       <div class="card-content">
@@ -491,7 +452,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
     <!-- CARD 5 -->
     <div class="card">
       <div class="thumbnail-container">
-        <img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/gsting.gif" alt="G-String Montage">
+        <img src="https://media.discordapp.net/attachments/1549488587207090208/1549887014294388836/gsting.gif?ex=6aac5443&is=6aab02c3&hm=ef554329996432509e4847e9f4c685a117185244727edf71f5dec2c0753aceeb&=" alt="G-String Montage">
         <span class="duration">2:45</span>
       </div>
       <div class="card-content">
@@ -506,7 +467,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
     <!-- CARD 6 -->
     <div class="card">
       <div class="thumbnail-container">
-        <img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746741/plugged.gif" alt="Plugged and Filled">
+        <img src="https://media.discordapp.net/attachments/1549488587207090208/1549884983471120526/plugged.gif?ex=6aac525f&is=6aab00df&hm=4a5ea2687527ca456f7a257031c423938b26f18361435264a143dec38380bbf0&=" alt="Plugged and Filled">
         <span class="duration">2:13</span>
       </div>
       <div class="card-content">
@@ -518,10 +479,10 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
       </div>
     </div>
 
-      <!-- CARD 7 -->
+    <!-- CARD 7 -->
     <div class="card">
       <div class="thumbnail-container">
-        <img src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789748057/he_had_no_chance.gif" alt="He Had No Chance">
+        <img src="https://media.discordapp.net/attachments/1549488587207090208/1549884983471120526/plugged.gif?ex=6aac525f&is=6aab00df&hm=4a5ea2687527ca456f7a257031c423938b26f18361435264a143dec38380bbf0&=" alt="Plugged and Filled">
         <span class="duration">12:23</span>
       </div>
       <div class="card-content">
@@ -533,11 +494,7 @@ padding-top: 12px; border-top: 0.5px solid rgba(255,255,255,0.08);
       </div>
     </div>
   </div>
-
-  </div>
-
+  
   <p class="note">Shortened clips available by request</p>
-  <p class="note">DM for montage ideas</p>
-
 </body>
 </html>
