@@ -9,117 +9,6 @@
 
   <style>
 
-    /* COMING SOON BADGE */
-.coming-soon-badge {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 20;
-
-  background: #ff5722;
-  color: white;
-
-  padding: 7px 13px;
-  border-radius: 6px;
-
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
-}
-
-    /* NEW BADGE */
-.new-badge {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 20;
-
-  background: #ff5722;
-  color: white;
-
-  padding: 7px 13px;
-  border-radius: 6px;
-
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
-}
-
-    /* SALE STARBURST */
-.sale-starburst {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  z-index: 20;
-
-  width: 82px;
-  height: 82px;
-
-  background: #f3e4bd;
-  color: #a32620;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  text-align: center;
-  font-size: 16px;
-  font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: 0.5px;
-
-  border: 3px solid #a32620;
-
-  clip-path: polygon(
-    50% 0%,
-    59% 15%,
-    72% 5%,
-    76% 22%,
-    93% 17%,
-    87% 34%,
-    100% 42%,
-    84% 51%,
-    97% 64%,
-    79% 68%,
-    82% 86%,
-    65% 79%,
-    57% 100%,
-    48% 82%,
-    34% 96%,
-    31% 77%,
-    12% 83%,
-    19% 64%,
-    0% 57%,
-    17% 46%,
-    3% 32%,
-    22% 29%,
-    18% 10%,
-    39% 18%
-  );
-
-  transform: rotate(8deg);
-}
-
-/* SALE PRICE AREA */
-.sale-prices {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.original-price {
-  color: #999;
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: line-through;
-  text-decoration-thickness: 2px;
-}
     * {
       margin: 0;
       padding: 0;
@@ -133,6 +22,105 @@
       min-height: 100vh;
       padding: 2rem;
     }
+
+
+    /* =========================
+       NEW BADGE
+       ========================= */
+
+    .new-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 20;
+      background: #ff5722;
+      color: white;
+      padding: 7px 13px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    }
+
+
+    /* =========================
+       SALE STARBURST
+       ========================= */
+
+    .sale-starburst {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 20;
+
+      width: 82px;
+      height: 82px;
+
+      background: #f3e4bd;
+      color: #a32620;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: 0.5px;
+
+      border: 3px solid #a32620;
+
+      clip-path: polygon(
+        50% 0%,
+        59% 15%,
+        72% 5%,
+        76% 22%,
+        93% 17%,
+        87% 34%,
+        100% 42%,
+        84% 51%,
+        97% 64%,
+        79% 68%,
+        82% 86%,
+        65% 79%,
+        57% 100%,
+        48% 82%,
+        34% 96%,
+        31% 77%,
+        12% 83%,
+        19% 64%,
+        0% 57%,
+        17% 46%,
+        3% 32%,
+        22% 29%,
+        18% 10%,
+        39% 18%
+      );
+
+      transform: rotate(8deg);
+    }
+
+    .sale-prices {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .original-price {
+      color: #999;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: line-through;
+      text-decoration-thickness: 2px;
+    }
+
+
+    /* =========================
+       HEADER
+       ========================= */
 
     .header {
       margin-bottom: 2.5rem;
@@ -152,6 +140,11 @@
       letter-spacing: 0.5px;
     }
 
+
+    /* =========================
+       SEARCH
+       ========================= */
+
     .search-bar {
       display: flex;
       gap: 12px;
@@ -164,10 +157,13 @@
       min-width: 250px;
       max-width: 500px;
       padding: 10px 16px;
+
       border: 0.5px solid rgba(255, 255, 255, 0.15);
       border-radius: 8px;
+
       background: rgba(255, 255, 255, 0.05);
       color: #ffffff;
+
       font-size: 14px;
     }
 
@@ -191,6 +187,11 @@
       background: #ff7043;
     }
 
+
+    /* =========================
+       VIDEO GRID
+       ========================= */
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -203,10 +204,14 @@
       border: 0.5px solid rgba(255, 255, 255, 0.1);
       border-radius: 12px;
       overflow: hidden;
+
       transition: transform 0.2s, border-color 0.2s;
+
       cursor: pointer;
+
       display: flex;
       flex-direction: column;
+
       position: relative;
     }
 
@@ -215,13 +220,21 @@
       border-color: rgba(255, 255, 255, 0.2);
     }
 
+
+    /* =========================
+       THUMBNAILS
+       ========================= */
+
     .thumbnail-container {
       width: 100%;
       aspect-ratio: 16 / 9;
+
       background: #000;
+
       display: flex;
       align-items: center;
       justify-content: center;
+
       overflow: hidden;
       position: relative;
     }
@@ -237,28 +250,42 @@
       position: absolute;
       bottom: 8px;
       right: 8px;
+
       background: rgba(0, 0, 0, 0.7);
       color: white;
+
       padding: 4px 8px;
       border-radius: 4px;
+
       font-size: 12px;
       font-weight: 500;
     }
+
+
+    /* =========================
+       FAVORITE BADGE
+       ========================= */
 
     .favorite-badge {
       position: absolute;
       top: -2px;
       left: 12px;
       z-index: 10;
+
       background: linear-gradient(135deg, #ff5722 0%, #ff7043 100%);
       color: white;
+
       padding: 8px 14px;
       border-radius: 50px;
+
       font-size: 11px;
       font-weight: 600;
+
       text-transform: uppercase;
       letter-spacing: 0.5px;
+
       box-shadow: 0 4px 12px rgba(255, 87, 34, 0.4);
+
       animation: pulse 2s infinite;
     }
 
@@ -271,6 +298,11 @@
         transform: scale(1.05);
       }
     }
+
+
+    /* =========================
+       CARD CONTENT
+       ========================= */
 
     .card-content {
       padding: 16px;
@@ -298,15 +330,19 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
       padding-top: 12px;
+
       border-top: 0.5px solid rgba(255, 255, 255, 0.08);
     }
 
     .price {
       background: #ff5722;
       color: white;
+
       padding: 6px 12px;
       border-radius: 6px;
+
       font-size: 14px;
       font-weight: 600;
     }
@@ -317,236 +353,376 @@
       margin-top: 2rem;
     }
 
+
     /* =========================================
-   ADDITIONAL VIP MENU SECTIONS
-   ========================================= */
+       VIP MENU SECTIONS
+       ========================================= */
 
-.vip-section {
-  max-width: 1400px;
-  margin-top: 70px;
-  padding-top: 40px;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-}
+    .vip-section {
+      max-width: 1400px;
+      margin-top: 70px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
 
-.vip-section-header {
-  margin-bottom: 28px;
-}
+    .vip-section-header {
+      margin-bottom: 28px;
+    }
 
-.vip-section-header h2 {
-  font-size: 28px;
-  font-weight: 500;
-  color: #ffffff;
-  margin-bottom: 6px;
-}
+    .vip-section-header h2 {
+      font-size: 28px;
+      font-weight: 500;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
 
-.vip-section-header p {
-  font-size: 13px;
-  color: #999;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
+    .vip-section-header p {
+      font-size: 13px;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
 
-/* Menu grid */
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+      margin-bottom: 20px;
+    }
 
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-  margin-bottom: 20px;
-}
+    .menu-grid-three {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+      margin-bottom: 20px;
+    }
 
-.menu-grid-three {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
-  margin-bottom: 20px;
-}
+    .menu-card {
+      background: rgba(30, 30, 50, 0.8);
+      border: 0.5px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+    }
 
-/* Individual menu cards */
+    .menu-card:hover {
+      border-color: rgba(255, 255, 255, 0.2);
+    }
 
-.menu-card {
-  background: rgba(30, 30, 50, 0.8);
-  border: 0.5px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 20px;
-}
+    .menu-card.featured {
+      border: 1px solid rgba(255, 87, 34, 0.65);
+      box-shadow: 0 0 20px rgba(255, 87, 34, 0.12);
+    }
 
-.menu-card:hover {
-  border-color: rgba(255, 255, 255, 0.2);
-}
+    .menu-card-title {
+      color: #ff5722;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin-bottom: 14px;
+    }
 
-.menu-card.featured {
-  border: 1px solid rgba(255, 87, 34, 0.65);
-  box-shadow: 0 0 20px rgba(255, 87, 34, 0.12);
-}
+    .menu-card-description {
+      color: #aaa;
+      font-size: 13px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
 
-.menu-card-title {
-  color: #ff5722;
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.7px;
-  margin-bottom: 14px;
-}
+    .menu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-.menu-card-description {
-  color: #aaa;
-  font-size: 13px;
-  line-height: 1.6;
-  margin-bottom: 16px;
-}
+      gap: 15px;
+      padding: 9px 0;
 
-/* Menu rows */
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 
-.menu-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-  padding: 9px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  color: #ccc;
-  font-size: 13px;
-}
+      color: #ccc;
+      font-size: 13px;
+    }
 
-.menu-row:last-child {
-  border-bottom: none;
-}
+    .menu-row:last-child {
+      border-bottom: none;
+    }
 
-.menu-price {
-  color: #ffffff;
-  background: #ff5722;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-weight: 600;
-  white-space: nowrap;
-}
+    .menu-price {
+      color: #ffffff;
+      background: #ff5722;
 
-/* Smaller headings inside cards */
+      padding: 5px 10px;
+      border-radius: 6px;
 
-.menu-subheading {
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 600;
-  margin-top: 16px;
-  margin-bottom: 8px;
-}
+      font-weight: 600;
+      white-space: nowrap;
+    }
 
-/* Feature lists */
+    .menu-subheading {
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
 
-.menu-list {
-  color: #aaa;
-  font-size: 13px;
-  line-height: 1.9;
-}
+    .menu-list {
+      color: #aaa;
+      font-size: 13px;
+      line-height: 1.9;
+    }
 
-.menu-highlight {
-  color: #ff7043;
-}
+    .menu-highlight {
+      color: #ff7043;
+    }
 
-/* Large bundle price */
+    .bundle-price {
+      display: inline-block;
 
-.bundle-price {
-  display: inline-block;
-  background: #ff5722;
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 8px 16px;
-  border-radius: 8px;
-  margin-top: 15px;
-}
+      background: #ff5722;
+      color: white;
 
-/* Full width cards */
+      font-size: 20px;
+      font-weight: 700;
 
-.menu-full {
-  margin-bottom: 20px;
-}
+      padding: 8px 16px;
+      border-radius: 8px;
 
-/* Rules / informational cards */
+      margin-top: 15px;
+    }
 
-.menu-info {
-  color: #aaa;
-  font-size: 13px;
-  line-height: 1.9;
-}
+    .menu-full {
+      margin-bottom: 20px;
+    }
 
-/* Responsive mobile layout */
+    .menu-info {
+      color: #aaa;
+      font-size: 13px;
+      line-height: 1.9;
+    }
 
-@media (max-width: 750px) {
-  .menu-grid,
-  .menu-grid-three {
-    grid-template-columns: 1fr;
-  }
 
-  .vip-section {
-    margin-top: 50px;
-    padding-top: 30px;
-  }
+    /* =========================
+       MOBILE
+       ========================= */
 
-  .vip-section-header h2 {
-    font-size: 24px;
-  }
-}
+    @media (max-width: 750px) {
+
+      body {
+        padding: 1rem;
+      }
+
+      .menu-grid,
+      .menu-grid-three {
+        grid-template-columns: 1fr;
+      }
+
+      .vip-section {
+        margin-top: 50px;
+        padding-top: 30px;
+      }
+
+      .vip-section-header h2 {
+        font-size: 24px;
+      }
+    }
+
   </style>
+
 </head>
+
 
 <body>
 
+
+  <!-- =========================
+       HEADER
+       ========================= -->
+
   <div class="header">
+
     <h1>VIP Content</h1>
+
     <p>Premium Video Library</p>
+
   </div>
 
+
+  <!-- =========================
+       SEARCH
+       ========================= -->
+
   <div class="search-bar">
+
     <input
       id="searchInput"
       type="text"
       placeholder="Search VIP content..."
     >
-    <button class="btn-search" onclick="searchCards()">Search</button>
+
+    <button
+      class="btn-search"
+      onclick="searchCards()"
+    >
+      Search
+    </button>
+
   </div>
+
+
+  <!-- =========================
+       VIDEO GRID
+       ========================= -->
 
   <div class="grid">
 
-   <!-- CARD 1 -->
-<div class="card">
 
-  <div class="sale-starburst">
-    20%<br>OFF
-  </div>
+    <!-- =====================================
+         CARD 1
+         SPENT THE NIGHT ON MYSELF
+         ===================================== -->
 
-  <div class="thumbnail-container">
-    <img
-      src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789748635/A_little_bit_of_everything.gif"
-      alt="A little bit of everything"
-    >
-    <span class="duration">17:41</span>
-  </div>
+    <div class="card">
 
-  <div class="card-content">
+      <div class="new-badge">
+        NEW
+      </div>
 
-    <h3 class="card-title">
-      A little bit of everything
-    </h3>
+      <div class="thumbnail-container">
 
-    <p class="card-description">
-      A little afternoon time to ourselves. I ride him, blow him, and let him cum inside me
-    </p>
+        <img
+          src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1790179588/0923.gif"
+          alt="Spent the Night on Myself"
+        >
 
-    <div class="card-footer">
+        <span class="duration">
+          3:33
+        </span>
 
-      <div class="sale-prices">
-        <div class="price">$65</div>
-        <span class="original-price">$81.25</span>
+      </div>
+
+      <div class="card-content">
+
+        <h3 class="card-title">
+          Spent the Night on Myself
+        </h3>
+
+        <div class="card-footer">
+
+          <div class="price">
+            $35
+          </div>
+
+        </div>
+
       </div>
 
     </div>
 
-  </div>
-</div>
 
-    <!-- CARD 2 -->
+    <!-- =====================================
+         CARD 2
+         HE HAD NO CHANCE
+         ===================================== -->
+
+    <div class="card">
+
+      <div class="thumbnail-container">
+
+        <img
+          src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789748057/he_had_no_chance.gif"
+          alt="He Had No Chance"
+        >
+
+        <span class="duration">
+          12:23
+        </span>
+
+      </div>
+
+      <div class="card-content">
+
+        <h3 class="card-title">
+          He Had No Chance
+        </h3>
+
+        <p class="card-description">
+          We had the livingroom to ourselves so of course I let him hit and cum on my titties
+        </p>
+
+        <div class="card-footer">
+
+          <div class="price">
+            $65
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- =====================================
+         CARD 3
+         A LITTLE BIT OF EVERYTHING
+         ===================================== -->
+
+    <div class="card">
+
+      <div class="sale-starburst">
+        20%<br>OFF
+      </div>
+
+      <div class="thumbnail-container">
+
+        <img
+          src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789748635/A_little_bit_of_everything.gif"
+          alt="A little bit of everything"
+        >
+
+        <span class="duration">
+          17:41
+        </span>
+
+      </div>
+
+      <div class="card-content">
+
+        <h3 class="card-title">
+          A little bit of everything
+        </h3>
+
+        <p class="card-description">
+          A little afternoon time to ourselves. I ride him, blow him, and let him cum inside me
+        </p>
+
+        <div class="card-footer">
+
+          <div class="sale-prices">
+
+            <div class="price">
+              $65
+            </div>
+
+            <span class="original-price">
+              $81.25
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- =====================================
+         CARD 4
+         MY HAPPY PLACE
+         ===================================== -->
+
     <div class="card">
 
       <div class="favorite-badge">
@@ -554,64 +730,106 @@
       </div>
 
       <div class="thumbnail-container">
+
         <img
           src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789747796/0916_1.gif"
           alt="My Happy Place"
         >
-        <span class="duration">3:55</span>
+
+        <span class="duration">
+          3:55
+        </span>
+
       </div>
 
       <div class="card-content">
-        <h3 class="card-title">My Happy Place</h3>
+
+        <h3 class="card-title">
+          My Happy Place
+        </h3>
 
         <p class="card-description">
           Ride his big cock before showing off the creampie
         </p>
 
         <div class="card-footer">
-          <div class="price">$50</div>
+
+          <div class="price">
+            $50
+          </div>
+
         </div>
+
       </div>
+
     </div>
 
 
-    <!-- CARD 3 -->
+    <!-- =====================================
+         CARD 5
+         SOME ME TIME
+         ===================================== -->
+
     <div class="card">
 
       <div class="thumbnail-container">
+
         <img
           src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/BBC_Dildo.gif"
           alt="Some Me Time"
         >
-        <span class="duration">5:43</span>
+
+        <span class="duration">
+          5:43
+        </span>
+
       </div>
 
       <div class="card-content">
-        <h3 class="card-title">Some Me Time</h3>
+
+        <h3 class="card-title">
+          Some Me Time
+        </h3>
 
         <p class="card-description">
           Watch as I ride my way to an orgasm all over this BBC
         </p>
 
         <div class="card-footer">
-          <div class="price">$45</div>
+
+          <div class="price">
+            $45
+          </div>
+
         </div>
+
       </div>
+
     </div>
 
 
-    <!-- CARD 4 -->
+    <!-- =====================================
+         CARD 6
+         PULL THEM TO THE SIDE
+         ===================================== -->
+
     <div class="card">
 
       <div class="thumbnail-container">
+
         <img
           src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/to_the_side.gif"
           alt="Pull Them to the Side and Fill Me Up"
         >
-        <span class="duration">2:04</span>
+
+        <span class="duration">
+          2:04
+        </span>
+
       </div>
 
       <div class="card-content">
+
         <h3 class="card-title">
           Pull Them to the Side and Fill Me Up
         </h3>
@@ -621,125 +839,107 @@
         </p>
 
         <div class="card-footer">
-          <div class="price">$25</div>
+
+          <div class="price">
+            $25
+          </div>
+
         </div>
+
       </div>
+
     </div>
 
 
-    <!-- CARD 5 -->
+    <!-- =====================================
+         CARD 7
+         G-STRING MONTAGE
+         ===================================== -->
+
     <div class="card">
 
       <div class="thumbnail-container">
+
         <img
           src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746751/gsting.gif"
           alt="G-String Montage"
         >
-        <span class="duration">2:45</span>
+
+        <span class="duration">
+          2:45
+        </span>
+
       </div>
 
       <div class="card-content">
-        <h3 class="card-title">G-String Montage</h3>
+
+        <h3 class="card-title">
+          G-String Montage
+        </h3>
 
         <p class="card-description">
           Looking for my favorite color and teasing you along the way
         </p>
 
         <div class="card-footer">
-          <div class="price">$15</div>
+
+          <div class="price">
+            $15
+          </div>
+
         </div>
+
       </div>
+
     </div>
 
 
-    <!-- CARD 6 -->
+    <!-- =====================================
+         CARD 8
+         PLUGGED AND FILLED
+         ===================================== -->
+
     <div class="card">
 
       <div class="thumbnail-container">
+
         <img
           src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789746741/plugged.gif"
           alt="Plugged and Filled"
         >
-        <span class="duration">2:13</span>
+
+        <span class="duration">
+          2:13
+        </span>
+
       </div>
 
       <div class="card-content">
-        <h3 class="card-title">Plugged and Filled</h3>
+
+        <h3 class="card-title">
+          Plugged and Filled
+        </h3>
 
         <p class="card-description">
           Cute pink plug in my ass, huge cock in my pussy
         </p>
 
         <div class="card-footer">
-          <div class="price">$30</div>
+
+          <div class="price">
+            $30
+          </div>
+
         </div>
+
       </div>
+
     </div>
 
 
-  <!-- CARD 7 -->
-<div class="card">
-
-  <div class="new-badge">NEW</div>
-
-  <div class="thumbnail-container">
-    <img
-      src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1789748057/he_had_no_chance.gif"
-      alt="He Had No Chance"
-    >
-    <span class="duration">12:23</span>
   </div>
+  <!-- END VIDEO GRID -->
 
-  <div class="card-content">
-
-    <h3 class="card-title">
-      He Had No Chance
-    </h3>
-
-    <p class="card-description">
-      We had the livingroom to ourselves so of course I let him hit and cum on my titties
-    </p>
-
-    <div class="card-footer">
-      <div class="price">$65</div>
-    </div>
-
-  </div>
-
-</div>
-
-    <!-- CARD 8 -->
-<div class="card">
-
-  <div class="coming-soon-badge">COMING SOON</div>
-
-  <div class="thumbnail-container">
-    <img
-      src="https://res.cloudinary.com/i8hgzhcy/image/upload/v1790179588/0923.gif"
-      alt="Spent the Night on Myself"
-    >
-    <span class="duration">3:33</span>
-  </div>
-
-  <div class="card-content">
-
-    <h3 class="card-title">
-      Spent the Night on Myself
-    </h3>
-
-    <p class="card-description">
-      Coming soon
-    </p>
-
-    <div class="card-footer">
-      <div class="price">$35</div>
-    </div>
-
-  </div>
-
-</div>
-
-  </div>
 
   <p class="note">
     Shortened clips available by request
@@ -749,449 +949,473 @@
     DM for montage ideas
   </p>
 
+
   <!-- =========================================
-     VIP MENU
-     ========================================= -->
+       VIP MENU
+       ========================================= -->
 
-<section class="vip-section">
+  <section class="vip-section">
 
-  <div class="vip-section-header">
-    <h2>VIP Menu</h2>
-    <p>Choose your favorite way to play 💕</p>
-  </div>
+    <div class="vip-section-header">
 
+      <h2>VIP Menu</h2>
 
-  <!-- FAVORITES + CUSTOM CONTENT -->
-
-  <div class="menu-grid">
-
-    <div class="menu-card">
-
-      <div class="menu-card-title">
-        ❤️ Favorites
-      </div>
-
-      <div class="menu-subheading">
-        📸 Photo Sets
-      </div>
-
-      <div class="menu-row">
-        <span>1 Photo</span>
-        <span class="menu-price">$5</span>
-      </div>
-
-      <div class="menu-row">
-        <span>5 Photos</span>
-        <span class="menu-price">$20</span>
-      </div>
-
-      <div class="menu-row">
-        <span>10 Photos</span>
-        <span class="menu-price">$35</span>
-      </div>
-
-
-      <div class="menu-subheading">
-        🎥 Video Vault
-      </div>
-
-      <div class="menu-row">
-        <span>Single Video</span>
-        <span class="menu-price">$20</span>
-      </div>
-
-      <div class="menu-row">
-        <span>3 Videos</span>
-        <span class="menu-price">$50</span>
-      </div>
-
-    </div>
-
-
-    <div class="menu-card">
-
-      <div class="menu-card-title">
-        ✨ Custom Content
-      </div>
-
-      <p class="menu-card-description">
-        Made just for you. Personalized to your preferences 💕
+      <p>
+        Choose your favorite way to play 💕
       </p>
 
+    </div>
+
+
+    <!-- FAVORITES + CUSTOM CONTENT -->
+
+    <div class="menu-grid">
+
+
+      <div class="menu-card">
+
+        <div class="menu-card-title">
+          ❤️ Favorites
+        </div>
+
+        <div class="menu-subheading">
+          📸 Photo Sets
+        </div>
+
+        <div class="menu-row">
+          <span>1 Photo</span>
+          <span class="menu-price">$5</span>
+        </div>
+
+        <div class="menu-row">
+          <span>5 Photos</span>
+          <span class="menu-price">$20</span>
+        </div>
+
+        <div class="menu-row">
+          <span>10 Photos</span>
+          <span class="menu-price">$35</span>
+        </div>
+
+        <div class="menu-subheading">
+          🎥 Video Vault
+        </div>
+
+        <div class="menu-row">
+          <span>Single Video</span>
+          <span class="menu-price">$20</span>
+        </div>
+
+        <div class="menu-row">
+          <span>3 Videos</span>
+          <span class="menu-price">$50</span>
+        </div>
+
+      </div>
+
+
+      <div class="menu-card">
+
+        <div class="menu-card-title">
+          ✨ Custom Content
+        </div>
+
+        <p class="menu-card-description">
+          Made just for you. Personalized to your preferences 💕
+        </p>
+
+        <div class="menu-subheading">
+          📸 Custom Photos
+        </div>
+
+        <div class="menu-row">
+          <span>5 Photos</span>
+          <span class="menu-price">$35</span>
+        </div>
+
+        <div class="menu-row">
+          <span>10 Photos</span>
+          <span class="menu-price">$55</span>
+        </div>
+
+        <div class="menu-row">
+          <span>20 Photos</span>
+          <span class="menu-price">$90</span>
+        </div>
+
+        <div class="menu-subheading">
+          🎥 Custom Videos
+        </div>
+
+        <div class="menu-row">
+          <span>Personalized to your request</span>
+          <span class="menu-price">$15/min</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- VIP BUNDLE -->
+
+    <div class="menu-card featured menu-full">
+
+      <div class="menu-card-title">
+        👑 Most Popular — VIP Bundle
+      </div>
+
+      <div class="menu-list">
+        ✨ 20 Custom Photos<br>
+        🎥 5-Minute Custom Video<br>
+        💬 One Personalized Voice Note<br>
+        ⭐ Priority Delivery<br>
+        💝 10% Off Your Next Custom Order
+      </div>
+
+      <div class="bundle-price">
+        $150
+      </div>
+
+    </div>
+
+
+    <!-- ADD ONS -->
+
+    <div class="menu-card menu-full">
+
+      <div class="menu-card-title">
+        💖 Add-Ons
+      </div>
+
+      <div class="menu-grid-three">
+
+        <div class="menu-row">
+          <span>💕 Name Mention</span>
+          <span class="menu-price">+$5</span>
+        </div>
+
+        <div class="menu-row">
+          <span>👗 Outfit Request</span>
+          <span class="menu-price">+$10</span>
+        </div>
+
+        <div class="menu-row">
+          <span>⚡ Rush Delivery</span>
+          <span class="menu-price">+$20</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- GIRLFRIEND EXPERIENCE -->
+
+    <div class="menu-card featured menu-full">
+
+      <div class="menu-card-title">
+        💖 Girlfriend Experience
+      </div>
+
+      <div class="menu-grid">
+
+        <div>
+
+          <div class="menu-row">
+            <span>💕 24-Hour GFE</span>
+            <span class="menu-price">$80</span>
+          </div>
+
+          <div class="menu-row">
+            <span>💕 7-Day GFE</span>
+            <span class="menu-price">$450</span>
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <div class="menu-subheading">
+            You'll Receive
+          </div>
+
+          <div class="menu-list">
+            ☀️ Good morning text<br>
+            💕 Flirty conversation throughout the day<br>
+            📸 Exclusive pics throughout the day<br>
+            🌙 Good night message<br>
+            💬 Priority messaging over standard chats<br>
+            💝 10% off all custom content while active
+          </div>
+
+        </div>
+
+      </div>
+
+
       <div class="menu-subheading">
-        📸 Custom Photos
+        Please Note
+      </div>
+
+      <div class="menu-info">
+        ✓ Replies sent throughout the day as schedule allows<br>
+        ✓ Custom content not included separately<br>
+        ✓ Video calls not included<br>
+        ✓ Keep it fun, flirty &amp; enjoyable 💕
+      </div>
+
+    </div>
+
+
+    <!-- EXTRAS -->
+
+    <div class="menu-card menu-full">
+
+      <div class="menu-card-title">
+        💖 Extras
       </div>
 
       <div class="menu-row">
-        <span>5 Photos</span>
-        <span class="menu-price">$35</span>
+        <span>🎬 Themed Photo Shoots</span>
+        <span class="menu-price">From $30</span>
       </div>
 
       <div class="menu-row">
-        <span>10 Photos</span>
-        <span class="menu-price">$55</span>
+        <span>🎥 Exclusive Video Collections</span>
+        <span class="menu-price">From $40</span>
       </div>
 
-      <div class="menu-row">
-        <span>20 Photos</span>
-        <span class="menu-price">$90</span>
+      <p
+        class="menu-card-description"
+        style="margin-top: 15px; margin-bottom: 0;"
+      >
+        Have a special request? Just ask 💕
+      </p>
+
+    </div>
+
+
+    <!-- HOUSE RULES -->
+
+    <div class="menu-card menu-full">
+
+      <div class="menu-card-title">
+        🔐 House Rules
       </div>
 
-
-      <div class="menu-subheading">
-        🎥 Custom Videos
+      <div class="menu-info">
+        ✓ Payment is required before any content is created.<br>
+        ✓ Custom orders are completed in the order received.<br>
+        ✓ Typical turnaround is 3–14 days, depending on my queue.<br>
+        ✓ No refunds on completed custom content.<br>
+        ✓ Have a unique idea? Feel free to ask—I love getting creative! 💕
       </div>
 
-      <div class="menu-row">
-        <span>Personalized to your request</span>
-        <span class="menu-price">$15/min</span>
-      </div>
+    </div>
+
+  </section>
+
+
+  <!-- =========================================
+       VIP COLLECTION
+       ========================================= -->
+
+  <section class="vip-section">
+
+    <div class="vip-section-header">
+
+      <h2>
+        VIP Collection
+      </h2>
+
+      <p>
+        Luxe, intimate, made just for you 😇🖤🔥
+      </p>
 
     </div>
 
-  </div>
 
-
-  <!-- VIP BUNDLE -->
-
-  <div class="menu-card featured menu-full">
-
-    <div class="menu-card-title">
-      👑 Most Popular — VIP Bundle
-    </div>
-
-    <div class="menu-list">
-      ✨ 20 Custom Photos<br>
-      🎥 5-Minute Custom Video<br>
-      💬 One Personalized Voice Note<br>
-      ⭐ Priority Delivery<br>
-      💝 10% Off Your Next Custom Order
-    </div>
-
-    <div class="bundle-price">
-      $150
-    </div>
-
-  </div>
-
-
-  <!-- ADD ONS -->
-
-  <div class="menu-card menu-full">
-
-    <div class="menu-card-title">
-      💖 Add-Ons
-    </div>
+    <!-- MAIN COLLECTION -->
 
     <div class="menu-grid-three">
 
-      <div class="menu-row">
-        <span>💕 Name Mention</span>
-        <span class="menu-price">+$5</span>
-      </div>
 
-      <div class="menu-row">
-        <span>👗 Outfit Request</span>
-        <span class="menu-price">+$10</span>
-      </div>
+      <!-- PANTIES -->
 
-      <div class="menu-row">
-        <span>⚡ Rush Delivery</span>
-        <span class="menu-price">+$20</span>
-      </div>
+      <div class="menu-card">
 
-    </div>
-
-  </div>
-
-
-  <!-- GIRLFRIEND EXPERIENCE -->
-
-  <div class="menu-card featured menu-full">
-
-    <div class="menu-card-title">
-      💖 Girlfriend Experience
-    </div>
-
-    <div class="menu-grid">
-
-      <div>
-
-        <div class="menu-row">
-          <span>💕 24-Hour GFE</span>
-          <span class="menu-price">$80</span>
+        <div class="menu-card-title">
+          💕 Worn Panties
         </div>
 
         <div class="menu-row">
-          <span>💕 7-Day GFE</span>
-          <span class="menu-price">$450</span>
+          <span>Standard</span>
+          <span class="menu-price">$90</span>
+        </div>
+
+        <div class="menu-row">
+          <span>Premium / Custom</span>
+          <span class="menu-price">$125</span>
         </div>
 
       </div>
 
 
-      <div>
+      <!-- BRA -->
 
-        <div class="menu-subheading">
-          You'll Receive
+      <div class="menu-card">
+
+        <div class="menu-card-title">
+          👑 Worn Bra
         </div>
 
-        <div class="menu-list">
-          ☀️ Good morning text<br>
-          💕 Flirty conversation throughout the day<br>
-          📸 Exclusive pics throughout the day<br>
-          🌙 Good night message<br>
-          💬 Priority messaging over standard chats<br>
-          💝 10% off all custom content while active
+        <div class="menu-row">
+          <span>Standard</span>
+          <span class="menu-price">$100</span>
+        </div>
+
+        <div class="menu-row">
+          <span>Premium / Custom</span>
+          <span class="menu-price">$150</span>
+        </div>
+
+      </div>
+
+
+      <!-- COMPLETE SET -->
+
+      <div class="menu-card featured">
+
+        <div class="menu-card-title">
+          💖 Complete Set
+        </div>
+
+        <p class="menu-card-description menu-highlight">
+          MOST POPULAR
+        </p>
+
+        <div class="menu-row">
+          <span>Standard</span>
+          <span class="menu-price">$150</span>
+        </div>
+
+        <div class="menu-row">
+          <span>Premium / Custom</span>
+          <span class="menu-price">$200</span>
         </div>
 
       </div>
 
     </div>
 
-    <div class="menu-subheading">
-      Please Note
+
+    <!-- COLLECTION ADD ONS -->
+
+    <div class="menu-card menu-full">
+
+      <div class="menu-card-title">
+        ✨ Collection Add-Ons
+      </div>
+
+      <div class="menu-grid">
+
+        <div class="menu-row">
+          <span>📸 3 Photos Showing Off</span>
+          <span class="menu-price">$10</span>
+        </div>
+
+        <div class="menu-row">
+          <span>🎥 3-Min Video</span>
+          <span class="menu-price">$25</span>
+        </div>
+
+        <div class="menu-row">
+          <span>✨ Special Days</span>
+          <span class="menu-price">$25</span>
+        </div>
+
+        <div class="menu-row">
+          <span>⏱️ Longer Wear</span>
+          <span class="menu-price">$25–$50</span>
+        </div>
+
+      </div>
+
+      <div class="menu-row">
+        <span>💭 Custom Request</span>
+        <span class="menu-price">Let's Talk</span>
+      </div>
+
     </div>
 
-    <div class="menu-info">
-      ✓ Replies sent throughout the day as schedule allows<br>
-      ✓ Custom content not included separately<br>
-      ✓ Video calls not included<br>
-      ✓ Keep it fun, flirty &amp; enjoyable 💕
+
+    <!-- WHAT'S INCLUDED -->
+
+    <div class="menu-card menu-full">
+
+      <div class="menu-card-title">
+        What's Included
+      </div>
+
+      <div class="menu-grid">
+
+        <div class="menu-info">
+          ✓ Discreet, premium packaging<br>
+          ✓ 24–48 hour available priority shipping<br>
+          ✓ Color request subject to inventory
+        </div>
+
+        <div class="menu-info">
+          ✓ Scent guarantee (worn to order)<br>
+          ✓ Photo proof before shipping<br>
+          ✓ Tracking included
+        </div>
+
+      </div>
+
     </div>
 
-  </div>
 
+    <!-- HOUSE RULES -->
 
-  <!-- EXTRAS -->
+    <div class="menu-card menu-full">
 
-  <div class="menu-card menu-full">
+      <div class="menu-card-title">
+        🔐 House Rules
+      </div>
 
-    <div class="menu-card-title">
-      💖 Extras
+      <div class="menu-info">
+        ✓ Payment required upfront via encrypted, secure transfer.<br>
+        ✓ Orders completed in sequence—typical turnaround 3–7 days.<br>
+        ✓ All items custom made to your order; no refunds on completed orders.<br>
+        ✓ Absolute discretion &amp; privacy guaranteed.<br>
+        ✓ Custom requests negotiated in DMs—let's make it happen 💕
+      </div>
+
     </div>
 
-    <div class="menu-row">
-      <span>🎬 Themed Photo Shoots</span>
-      <span class="menu-price">From $30</span>
-    </div>
+  </section>
 
-    <div class="menu-row">
-      <span>🎥 Exclusive Video Collections</span>
-      <span class="menu-price">From $40</span>
-    </div>
-
-    <p class="menu-card-description" style="margin-top: 15px; margin-bottom: 0;">
-      Have a special request? Just ask 💕
-    </p>
-
-  </div>
-
-
-  <!-- HOUSE RULES -->
-
-  <div class="menu-card menu-full">
-
-    <div class="menu-card-title">
-      🔐 House Rules
-    </div>
-
-    <div class="menu-info">
-      ✓ Payment is required before any content is created.<br>
-      ✓ Custom orders are completed in the order received.<br>
-      ✓ Typical turnaround is 3–14 days, depending on my queue.<br>
-      ✓ No refunds on completed custom content.<br>
-      ✓ Have a unique idea? Feel free to ask—I love getting creative! 💕
-    </div>
-
-  </div>
-
-</section>
 
   <!-- =========================================
-     VIP COLLECTION
-     ========================================= -->
-
-<section class="vip-section">
-
-  <div class="vip-section-header">
-    <h2>VIP Collection</h2>
-    <p>Luxe, intimate, made just for you 😇🖤🔥</p>
-  </div>
-
-
-  <!-- MAIN COLLECTION -->
-
-  <div class="menu-grid-three">
-
-    <!-- PANTIES -->
-
-    <div class="menu-card">
-
-      <div class="menu-card-title">
-        💕 Worn Panties
-      </div>
-
-      <div class="menu-row">
-        <span>Standard</span>
-        <span class="menu-price">$90</span>
-      </div>
-
-      <div class="menu-row">
-        <span>Premium / Custom</span>
-        <span class="menu-price">$125</span>
-      </div>
-
-    </div>
-
-
-    <!-- BRA -->
-
-    <div class="menu-card">
-
-      <div class="menu-card-title">
-        👑 Worn Bra
-      </div>
-
-      <div class="menu-row">
-        <span>Standard</span>
-        <span class="menu-price">$100</span>
-      </div>
-
-      <div class="menu-row">
-        <span>Premium / Custom</span>
-        <span class="menu-price">$150</span>
-      </div>
-
-    </div>
-
-
-    <!-- COMPLETE SET -->
-
-    <div class="menu-card featured">
-
-      <div class="menu-card-title">
-        💖 Complete Set
-      </div>
-
-      <p class="menu-card-description menu-highlight">
-        MOST POPULAR
-      </p>
-
-      <div class="menu-row">
-        <span>Standard</span>
-        <span class="menu-price">$150</span>
-      </div>
-
-      <div class="menu-row">
-        <span>Premium / Custom</span>
-        <span class="menu-price">$200</span>
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <!-- ADD ONS -->
-
-  <div class="menu-card menu-full">
-
-    <div class="menu-card-title">
-      ✨ Collection Add-Ons
-    </div>
-
-    <div class="menu-grid">
-
-      <div class="menu-row">
-        <span>📸 3 Photos Showing Off</span>
-        <span class="menu-price">$10</span>
-      </div>
-
-      <div class="menu-row">
-        <span>🎥 3-Min Video</span>
-        <span class="menu-price">$25</span>
-      </div>
-
-      <div class="menu-row">
-        <span>✨ Special Days</span>
-        <span class="menu-price">$25</span>
-      </div>
-
-      <div class="menu-row">
-        <span>⏱️ Longer Wear</span>
-        <span class="menu-price">$25–$50</span>
-      </div>
-
-    </div>
-
-
-    <div class="menu-row">
-      <span>💭 Custom Request</span>
-      <span class="menu-price">Let's Talk</span>
-    </div>
-
-  </div>
-
-
-  <!-- WHAT'S INCLUDED -->
-
-  <div class="menu-card menu-full">
-
-    <div class="menu-card-title">
-      What's Included
-    </div>
-
-    <div class="menu-grid">
-
-      <div class="menu-info">
-        ✓ Discreet, premium packaging<br>
-        ✓ 24–48 hour available priority shipping<br>
-        ✓ Color request subject to inventory
-      </div>
-
-      <div class="menu-info">
-        ✓ Scent guarantee (worn to order)<br>
-        ✓ Photo proof before shipping<br>
-        ✓ Tracking included
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <!-- HOUSE RULES -->
-
-  <div class="menu-card menu-full">
-
-    <div class="menu-card-title">
-      🔐 House Rules
-    </div>
-
-    <div class="menu-info">
-      ✓ Payment required upfront via encrypted, secure transfer.<br>
-      ✓ Orders completed in sequence—typical turnaround 3–7 days.<br>
-      ✓ All items custom made to your order; no refunds on completed orders.<br>
-      ✓ Absolute discretion &amp; privacy guaranteed.<br>
-      ✓ Custom requests negotiated in DMs—let's make it happen 💕
-    </div>
-
-  </div>
-
-</section>
-
+       SEARCH SCRIPT
+       ========================================= -->
 
   <script>
+
     function searchCards() {
+
       const input = document
         .getElementById("searchInput")
         .value
         .toLowerCase();
 
-      const cards = document.querySelectorAll(".card");
+      const cards = document.querySelectorAll(".grid .card");
 
       cards.forEach(card => {
+
         const text = card.innerText.toLowerCase();
 
         if (text.includes(input)) {
@@ -1199,13 +1423,18 @@
         } else {
           card.style.display = "none";
         }
+
       });
+
     }
 
     document
       .getElementById("searchInput")
       .addEventListener("input", searchCards);
+
   </script>
 
+
 </body>
+
 </html>
